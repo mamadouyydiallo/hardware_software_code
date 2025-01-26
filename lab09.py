@@ -7,7 +7,7 @@ def repaeat_lyrics(count=1):
 	print("{}############".format(number), end=".")
 	print_lyrics()
 	print("############")
-def main()
+def main():
 	repaeat_lyrics()
 	repaeat_lyrics(4)
 if __name__== "__main__":
