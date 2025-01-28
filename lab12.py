@@ -1,5 +1,5 @@
 def greeting():
-    print("I can only stop if you type exist".)
+    print("I can only stop if you type exit.")
     print("Do you want me to stop")
     print("Type exit then!")
     return input ("i'm waiting!!! ").lower().strip()
