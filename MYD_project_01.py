@@ -21,7 +21,6 @@ def introduction():
     print()
     return name, college, high_school, institution
 def main():
-    name, college, high_school, institution = conversation()
     print(f"\nIt was nice to speak with you, {name}.")
     print()
     print(f"\nYou are currenlt attending, {name}.")
