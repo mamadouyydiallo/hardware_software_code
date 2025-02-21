@@ -5,10 +5,20 @@ def introduction():
     print("'1'- Binary to decimal")
     print("'2'- Decimal to binary")
     print("'3'- Binary to hexadecimal")
-    Selection = input("\nSelect an option:")
-    num = input("Enter binary Number: ")
-    binary_num = binary_to_decimal(num)
-    print("Binary {} to Decimal:{}". format(num, binary_num) )
+    Selection = input("\nSelect an option: ")
+    try:
+        if selection == "1":
+            binary = input("Enter a binary number: ")
+            print()
+            print(f"Decimal: (binary_to_decimal (binary)}")
+        elif selection == "2":
+            decimal = int(input("Enter a decimal number: "))
+            print()
+            print(f"Binary: {decimal_to_binary(decimal)]")
+        elif selection == "3":
+            binary = input("Enter a binary number: " ")
+            print()
+            print(f"Hexadecimal: {binary_to_hexadecimal)}")
     return input("Type 'yes' to exit or press 'Enter' to continue:")
 
 def binary_to_decimal(binary):
